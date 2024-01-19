@@ -1,21 +1,20 @@
 import React from "react";
 import Image from "next/image";
-import { url } from "inspector";
+//import { url } from "inspector";
 
 const About = () => {
   return (
     <>
       <section
         className="flex justify-between w-full h-[540px] 
-    items-center max-xl:flex-col-reverse gap-10 mx-auto 
+     gap-10 mx-auto 
     bg-cover ml-auto mr-auto  "
         style={{ backgroundImage: `url('/assets/curve1.png')` }}
       >
         <div className="flex-1 ml-0 mt-5">
-          <Image
+          <img
             src="/assets/AboutImg.png"
-            width="652"
-            height="540"
+            className="w-[652px] h-[540px]"
             alt="Description of your image"
           />
         </div>
@@ -30,7 +29,7 @@ const About = () => {
             height={6}
           />
 
-          <div className="mt-8 font-abc">
+          <div className="mt-6 font-abc">
             <p className="m-0 font-medium">
               We’re more than just a tire company;
               <br />
@@ -58,24 +57,21 @@ const About = () => {
             </p>
             <p className="m-0 font-medium">drive everything we do.</p>
           </div>
-          <div className="flex gap-6">
+          <div className="flex mb-[77px] gap-6">
             <div className="flex mb-6 mt-16">
-              <Image
-                className="w-full"
+              <img
+                className="w-[188px] h-[52px]"
                 src="/assets/Vector 3.png"
-                width={188}
-                height={52}
                 alt="aaa"
               />
               <div className=" w-60 h-20 font-abc  top-1817 absolute ml-12 mt-[15px] font-medium text-white">
                 Join Us
               </div>
             </div>
-            <div className="flex mb-6 mt-16  ">
-              <Image
+            <div className="flex mb-6 mt-16 ">
+              <img
                 src="/assets/BorderImg.png"
-                width={188}
-                height={52}
+                className="w-[188px] h-[52px]"
                 alt="aaa"
               />
             </div>
@@ -85,7 +81,7 @@ const About = () => {
 
       <section
         className="flex justify-between  
-    items-center max-xl:flex-col-reverse gap-10 mx-auto
+    items-center  gap-10 mx-auto
     bg-cover w-full h-[265px]    ml-7  "
         style={{ backgroundImage: `url('/assets/curve2.png')` }}
       >

@@ -1,5 +1,5 @@
 import React from "react";
-import Slider from "react-slick";
+
 const Footer = () => {
   return (
     <>
@@ -7,18 +7,6 @@ const Footer = () => {
         <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
           <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
             <a className="flex title-font font-medium items-center md:justify-start justify-center text-white">
-              {/* <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                className="w-10 h-10 text-white p-2  rounded-full"
-                viewBox="0 0 24 24"
-              >
-                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-              </svg> */}
               <img src="/assets/Group.png" width="251px" height="40px" />
             </a>
             <p className="mt-6 font-abc font-normal text-xs leading-4">
@@ -124,10 +112,9 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <img className="mb-[300px] ml-[60px]" src="/assets/Line 141.png" />
 
-        {/* <div className="bg-[#1A355A] ">
-          <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+        <div className="bg-[#1A355A] mb-[100px] mt-[-60px] ">
+          <div className="container mx-auto py-5 px-5 flex flex-wrap flex-col sm:flex-row">
             <p className="text-gray-500 text-sm text-center sm:text-left">
               © 2023 Lorem Ipsum
             </p>
@@ -192,7 +179,7 @@ const Footer = () => {
               </a>
             </span>
           </div>
-        </div> */}
+        </div>
       </footer>
     </>
   );
